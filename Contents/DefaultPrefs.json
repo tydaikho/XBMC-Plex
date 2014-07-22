@@ -1,0 +1,115 @@
+[
+    {
+        "id": "sep-alt-url",
+        "type": "enum",
+        "label": "-------- Alternative Site URL: --------",
+        "values": [" -","-"],
+    },
+	{
+        "id": "use_alt_url",
+        "type": "bool",
+        "label": "Use aternative site URL:",
+        "default": "false"
+    },
+   {
+        "id": "alt_url",
+        "type": "text",
+        "label": "Alternative site URL:",
+        "default": ""
+    },
+    {
+        "id": "sep-watched",
+        "type": "enum",
+        "label": "-------- Watched Item Tracking: --------",
+        "values": [" -","-"],
+    },
+    {
+        "id": "watched_amount",
+        "type": "enum",
+        "label": "Number of items in Recently Watched list:",
+        "values": ["Disabled","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30"],
+        "default": "15"
+    },
+    {
+        "id": "watched_grouping",
+        "type": "enum",
+        "label": "Group TV shows in Recently Watched list by:",
+        "values": ["Show", "Season", "Episode"],
+        "default": "Season"
+    },
+    {
+        "id": "watched_indicator",
+        "type": "enum",
+        "label": "Put an indcator for unwatched items in:",
+        "values": ["Disabled", "TV Shows", "All"],
+        "default": "TV Shows"
+    },
+    {
+        "id": "sep-favs",
+        "type": "enum",
+        "label": "--------- Favourites: --------",
+        "values": [" -","-"],
+    },
+    {
+        "id": "favourite_sort",
+        "type": "enum",
+        "label": "Sort Favourties By:",
+        "values": ["Alphabetical", "Date Added"],
+        "default": "Alphabetical"
+    },
+    {
+        "id": "favourite_add_labels",
+        "type": "bool",
+        "label": "When adding item to favourites, also add labels:",
+        "default": "false"
+    },
+    {
+        "id": "favourite_notify_email",
+        "type": "text",
+        "label": "Email to notify when new Favourites are found:",
+        "default": ""
+    },
+    {
+        "id": "favourite_notify_email_test",
+        "type": "bool",
+        "label": "Show 'Send Test Email'",
+        "default": "false"
+    },
+    {
+        "id": "sep-metadata",
+        "type": "enum",
+        "label": "--------- Meta Data: --------",
+        "values": [" -","-"],
+    },
+    {
+        "id": "meta_retrieve",
+        "type": "enum",
+        "label": "Retrieve metadata from external providers:",
+        "values": ["Disabled", "TV Shows", "Movies", "All"],
+        "default": "All"
+    },
+    {
+        "id": "sep-other",
+        "type": "enum",
+        "label": "--------- Other: --------",
+        "values": [" -","-"],
+    },
+    {
+        "id": "versiontracking",
+        "type": "bool",
+        "label": "Help measure interest in this plugin",
+        "default": "true"
+    },
+    {
+        "id": "sep-sources",
+        "type": "enum",
+        "label": "--------- Sources: --------",
+        "values": [" -","-"],
+    },
+    {
+        "id": "show_unsupported",
+        "type": "bool",
+        "label": "Show unsupported and disabled providers",
+        "default": "false"
+    }
+]
